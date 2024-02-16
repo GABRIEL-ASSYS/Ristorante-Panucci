@@ -36,7 +36,7 @@ class MainDrawer extends StatelessWidget {
               },
               title: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: const <Widget>[
+                  children: <Widget>[
                     Icon(Icons.receipt_long),
                     Expanded(
                         child: Padding(
@@ -58,7 +58,7 @@ class MainDrawer extends StatelessWidget {
               onTap: () {},
               title: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: const <Widget>[
+                  children: <Widget>[
                     Icon(Icons.fact_check_outlined),
                     Expanded(
                         child: Padding(

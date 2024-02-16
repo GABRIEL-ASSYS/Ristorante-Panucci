@@ -47,7 +47,7 @@ class PaymentTotal extends StatelessWidget {
           style: AppColors.buttonStyle,
           child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
-              children: const <Widget>[
+              children: <Widget>[
                 Padding(
                   padding: EdgeInsets.only(right: 8.0),
                   child: Icon(Icons.account_balance_wallet),
